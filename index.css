@@ -11,7 +11,6 @@ body {
     align-items: center;
     color: #06345Eff;
     background-color: #FF6584ff;
-    /* background-image: url("station.jpg"); */
     background-size: cover;
 }
 #main {
@@ -20,8 +19,9 @@ body {
     font-weight: bold;
     text-align: center;
     border-radius: 25px;
-    width: 350px;
-    /* height: auto; */
+    width: 50vw;
+    height: 70vh;
+    min-width: 270px;
     max-width: 400px;
     box-shadow: 0px 3px 13px black;
 }
@@ -55,11 +55,18 @@ button {
     background: #00C9BAff;
 }
 #decrement-btn:hover {
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    background: rgb(0, 173, 162);
+    border: 1px solid rgb(0, 173, 162);
+}
+#decrement-btn:active{
     color: #00C9BAff;
     font-family: "Fredoka", sans-serif;
     background: white;
     border: 1px solid #00C9BAff;
-}
+    box-shadow: 0px 0px 4px rgb(0, 104, 97) inset;
+} 
 
 #save-el {
     color: #FF6584ff;
@@ -70,12 +77,19 @@ button {
     font-family: "Fredoka", sans-serif;
     background: #FF6584ff;
 }
-#increment-btn:hover {
+#increment-btn:hover{
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    background: rgb(209, 83, 108);
+    border: 1px solid rgb(209, 83, 108);
+}
+#increment-btn:active{
     color: #FF6584ff;
     font-family: "Fredoka", sans-serif;
     background: white;
     border: 1px solid #FF6584ff;
-}
+    box-shadow: 0px 0px 4px rgb(108, 37, 51) inset;
+} 
 
 #save-btn {
     font-family: "Fredoka", sans-serif;
@@ -83,9 +97,18 @@ button {
 }
 
 #save-btn:hover {
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    background: rgb(21, 81, 137);
+    border: 1px solid #06345Eff;
+}
+
+#save-btn:active {
     color: #06345Eff;
     font-family: "Fredoka", sans-serif;
     background: white;
     border: 1px solid #06345Eff;
+    box-shadow: 0px 0px 4px black inset;
 }
+
 
