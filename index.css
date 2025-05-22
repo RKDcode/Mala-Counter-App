@@ -1,0 +1,91 @@
+/* --berkeley-blue: #06345Eff;
+--robin-egg-blue: #00C9BAff;
+--tiffany-blue: #73DDD0ff;
+--platinum: #E6E6E6ff;
+--bright-pink-crayola: #FF6584ff; */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #06345Eff;
+    background-color: #FF6584ff;
+    /* background-image: url("station.jpg"); */
+    background-size: cover;
+}
+#main {
+    background-color: white;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    width: 350px;
+    /* height: auto; */
+    max-width: 400px;
+    box-shadow: 0px 3px 13px black;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #FF6584ff;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #E6E6E6ff;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px black;
+}
+#decrement-btn {
+    font-family: "Fredoka", sans-serif;
+    background: #00C9BAff;
+}
+#decrement-btn:hover {
+    color: #00C9BAff;
+    font-family: "Fredoka", sans-serif;
+    background: white;
+    border: 1px solid #00C9BAff;
+}
+
+#save-el {
+    color: #FF6584ff;
+    margin-bottom: 40px;
+}
+
+#increment-btn {
+    font-family: "Fredoka", sans-serif;
+    background: #FF6584ff;
+}
+#increment-btn:hover {
+    color: #FF6584ff;
+    font-family: "Fredoka", sans-serif;
+    background: white;
+    border: 1px solid #FF6584ff;
+}
+
+#save-btn {
+    font-family: "Fredoka", sans-serif;
+    background: #06345Eff;
+}
+
+#save-btn:hover {
+    color: #06345Eff;
+    font-family: "Fredoka", sans-serif;
+    background: white;
+    border: 1px solid #06345Eff;
+}
+
